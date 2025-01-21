@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Stationery Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .product {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            margin: 15px;
+            padding: 20px;
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .product h3 {
+            margin: 10px 0;
+            font-size: 1.5em;
+        }
+        .product p {
+            color: #777;
+        }
+        .product .price {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .product button {
+            background-color: #5cb85c;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 1em;
+            transition: background-color 0.3s ease;
+        }
+        .product button:hover {
+            background-color: #4cae4c;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Stationery Shop</h1>
+    <p>Your one-stop online shop for all stationery needs</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#shop">Shop</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container" id="shop">
+    <div class="product">
+        <img src="https://via.placeholder.com/200" alt="Notebook">
+        <h3>Notebook</h3>
+        <p>Perfect for taking notes and jotting down ideas.</p>
+        <div class="price">$5.99</div>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://via.placeholder.com/200" alt="Pen">
+        <h3>Ballpoint Pen</h3>
+        <p>Smooth writing pen for everyday use.</p>
+        <div class="price">$2.49</div>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://via.placeholder.com/200" alt="Pencil Set">
+        <h3>Pencil Set</h3>
+        <p>Set of high-quality pencils for drawing and writing.</p>
+        <div class="price">$3.99</div>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://via.placeholder.com/200" alt="Sticky Notes">
+        <h3>Sticky Notes</h3>
+        <p>Colorful sticky notes for reminders and to-do lists.</p>
+        <div class="price">$1.99</div>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://via.placeholder.com/200" alt="Highlighter">
+        <h3>Highlighter</h3>
+        <p>Bright highlighter for important notes and text.</p>
+        <div class="price">$2.79</div>
+        <button>Add to Cart</button>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Stationery Shop. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
