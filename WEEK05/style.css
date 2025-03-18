@@ -1,0 +1,75 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.weather-search {
+    margin: 20px 0;
+}
+
+#city {
+    padding: 10px;
+    font-size: 1rem;
+    width: 80%;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#city:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.weather-info {
+    margin-top: 30px;
+    display: none;
+}
+
+.weather-info h2 {
+    font-size: 1.5rem;
+}
+
+.weather-info p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.error-message {
+    color: red;
+    margin-top: 20px;
+    font-size: 1rem;
+    display: none;
+}
